@@ -1,0 +1,10 @@
+<launch>
+
+    <node name="better_teleop" pkg="better_teleop" type="better_teleop.py">
+        <param name="cmd_topic" value="/cmd_vel"/>
+        <param name="forward_rate" value="1.0"/>
+        <param name="backward_rate" value="1.0"/>
+        <param name="rotation_rate" value="3.0"/>
+    </node>
+    
+</launch>
