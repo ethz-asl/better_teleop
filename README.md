@@ -4,14 +4,14 @@ This package provides the `better_teleop.py` script which allows sending velocit
 
 The package utilizes the `pynput` Python package which needs to be installed manually via
 
-```
-sudo pip install pynput
+```bash
+sudo pip install -r requirements.txt
 ```
 
 The node is launched via
 
-```
+```bash
 roslaunch better_teleop better_teleop.launch
 ```
 
-The launch file also contains the parameters of the script which are the topic onto which to publish velcoity commands (`cmd_topic`), as well as the rates to use when computing the command to send, i.e. `forward_rate, backward_rate, rotation_rate`.
+The launch file also contains the parameters of the script which are the topic onto which to publish velocity commands (`cmd_topic`), as well as the rates to use when computing the command to send, i.e. `forward_rate, backward_rate, rotation_rate`.
