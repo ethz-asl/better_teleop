@@ -1,0 +1,17 @@
+[project]
+name = "better_teleop"
+version = "1.0.0"
+description = "Simple ROS keyboard-based teleoperation node"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+authors = [
+    {name = "Lionel Ott", email = "lioott@ethz.ch"},
+]
+
+dependencies = [
+    "pynput",
+]
+
+[project.urls]
+repository = "https://github.com/ethz-asl/better_teleop.git"
